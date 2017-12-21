@@ -1,0 +1,6 @@
+framework module Pods_WebTriggerCollectionTests {
+  umbrella header "Pods-WebTriggerCollectionTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

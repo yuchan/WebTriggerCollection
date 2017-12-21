@@ -1,0 +1,9 @@
+extends layout.pug
+
+block content
+  p Hello #{name}!
+  input(type='button' value="push" onClick="sendEvent();")
+  
+  form(action="appAPay://show/action/post" method="POST")
+      input(type="text" value="test" name="text1")
+      input(type="submit" value="push")
